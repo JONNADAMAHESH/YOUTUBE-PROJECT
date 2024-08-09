@@ -392,7 +392,7 @@ with col2:
         connect = mysql.connector.connect(
         host = "127.0.0.1",
         user = "root",
-        password = "Mahesh2005",
+        password = "000000",
         database = "guvi_database")
         #auth_plugin = "mysql_native_password")
 
@@ -407,7 +407,7 @@ with col2:
 
         # Connect to the new created database
         # Connect to the MySQL server
-        engine = create_engine('mysql+mysqlconnector://root:Mahesh2005@localhost/youtube', echo=False)
+        engine = create_engine('mysql+mysqlconnector://root:000000@localhost/youtube', echo=False)
 
         # Use pandas to insert the DataFrames data to the SQL Database -> table1
 
@@ -466,7 +466,7 @@ with col2:
                                   key='collection_question')
 
     # Creat a connection to SQL
-    connect_for_question = mysql.connector.connect(host='localhost', user='root', password='Mahesh2005', db='youtube')
+    connect_for_question = mysql.connector.connect(host='localhost', user='root', password='0000000', db='youtube')
     cursor = connect_for_question.cursor()
 
     # Q1
